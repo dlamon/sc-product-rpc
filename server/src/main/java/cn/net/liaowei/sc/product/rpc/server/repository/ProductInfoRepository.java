@@ -1,6 +1,6 @@
 package cn.net.liaowei.sc.product.rpc.server.repository;
 
-import cn.net.liaowei.sc.product.rpc.server.domain.dos.ProductInfoDO;
+import cn.net.liaowei.sc.product.rpc.server.domain.ProductInfoDO;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

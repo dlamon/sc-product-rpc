@@ -1,6 +1,6 @@
 package cn.net.liaowei.sc.product.rpc.server.repository;
 
-import cn.net.liaowei.sc.product.rpc.server.domain.dos.ProductCategoryDO;
+import cn.net.liaowei.sc.product.rpc.server.domain.ProductCategoryDO;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

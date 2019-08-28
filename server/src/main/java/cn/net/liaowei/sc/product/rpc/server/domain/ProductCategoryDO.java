@@ -1,4 +1,4 @@
-package cn.net.liaowei.sc.product.rpc.server.domain.dos;
+package cn.net.liaowei.sc.product.rpc.server.domain;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
