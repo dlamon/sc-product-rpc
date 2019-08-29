@@ -10,6 +10,15 @@ spring:
     date-format: yyyy-MM-dd HH:mm:ss
   jpa:
     show-sql: true
+  sleuth:
+    sampler:
+      probability: 1
+    async:
+      enabled: false
+  zipkin:
+    base-url: http://192.168.99.108:9411
+    sender:
+      type: web
 swagger:
   enabled: true
   base-package: cn.net.liaowei.sc.order
@@ -24,3 +33,6 @@ com:
         bolt-port: 12221
         registry:
           address: consul://192.168.99.103:8500?healthCheck.type=http&healthCheck.path=/actuator/readiness&healthCheck.port=${server.port}
+      tracer:
+        zipkin:
+          base-url: http://192.168.99.108:9411
